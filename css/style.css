@@ -1,4 +1,7 @@
 /* Base */
+*{
+overflow-x: clip;
+}
 
 .font-size-10 {
   font-size: 10px;
@@ -401,12 +404,12 @@ h5,
 }
 
 .site-footer {
-  padding: 4em 0;
+  padding:0;
   background: #333333;
 }
 @media (min-width: 768px) {
   .site-footer {
-    padding: 8em 0;
+    padding: 2em 0;
   }
 }
 .site-footer .border-top {
@@ -634,6 +637,22 @@ h5,
     float: left;
     position: relative;
   }
+
+  .pricing {
+    padding: 30px 0 !important;
+  }
+
+  .pricing-card{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .pricing-img {
+    width: 300px !important;
+    margin-bottom: 20px;
+  }
+
 }
 .site-navbar .site-navigation.border-bottom {
   border-bottom: 1px solid white !important;
@@ -1621,6 +1640,7 @@ h5,
 .block__35630 {
   border: 1px solid #ccc;
   padding: 30px;
+  margin: 20px 0;
   border-radius: 4px;
   -webkit-transition: 0.3s all ease-in-out;
   -o-transition: 0.3s all ease-in-out;
@@ -1849,4 +1869,38 @@ h5,
 
 .bg-light {
   background-color: #f6f5f5 !important;
+}
+
+.card-custom {
+  display:flex ;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+.pricing-card {
+  display: flex;
+  justify-content: space-between;
+  line-height: 0.5;
+  margin: 20px 0;
+
+}
+
+.pricing-img{
+  width:60%;
+}
+
+.card-venus-mars {
+  margin: 10px 0 24px 0;
+}
+
+.home-demo .item {
+  background: #ff3f4d;
+}
+.home-demo h2 {
+  color: #FFF;
+  text-align: center;
+  padding: 5rem 0;
+  margin: 0;
+  font-style: italic;
+  font-weight: 300;
 }

@@ -22,8 +22,8 @@
   }
 }
 
-    .fi:before{
-        display: inline-block;
+.fi:before{
+  display: inline-block;
   font-family: "Flaticon";
   font-style: normal;
   font-weight: normal;
@@ -35,9 +35,9 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
-    }
+}
 
-    .flaticon-airplane:before { content: "\f100"; }
+.flaticon-airplane:before { content: "\f100"; }
 .flaticon-add:before { content: "\f101"; }
 .flaticon-ferry:before { content: "\f102"; }
 .flaticon-box:before { content: "\f103"; }
